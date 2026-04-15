@@ -1,3 +1,6 @@
+Fork on [openWakeWord](https://github.com/dscripka/openWakeWord/tree/main) to get rid of package dependencies that are not compatible on Ubuntu 24.04
+
+
 ![Github CI](https://github.com/dscripka/openWakeWord/actions/workflows/tests.yml/badge.svg)
 
 # openWakeWord
