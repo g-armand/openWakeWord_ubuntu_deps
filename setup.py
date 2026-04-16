@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="openwakeword_ubuntu_deps",
 
-    version="0.6.0",  # placeholder since Conan installs from git@main
+    version="0.0.1",  # until it works will iterate on 0.0.* then bump directly to 0.6.0
     install_requires=[
         # --- base dependencies ---
         "onnxruntime>=1.17.1,<2",
