@@ -31,7 +31,7 @@ setuptools.setup(
         "protobuf>=4.25.3,<5",
         "onnx>=1.19.1,<2",
         "pronouncing>=0.2.0,<1",
-        "deep-phonemizer>=0.0.19,<1"
+        "deep-phonemizer>=0.0.19,<1",
         "torchcodec>=0.9.1,<1",
         "onnxscript>=0.5.7,<1",
         "datasets>=4.1.1,<5",
