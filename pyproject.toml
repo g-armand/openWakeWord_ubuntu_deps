@@ -28,4 +28,5 @@ classifiers = [
 dynamic = ["dependencies", "optional-dependencies"]
 
 [project.urls]
-"Homepage" = "https://github.com/dscripka/openWakeWord"
+"Homepage" = "https://github.com/g-armand/openWakeWord_ubuntu_deps"
+"Forked from" = "https://github.com/dscripka/openWakeWord"
