@@ -3,7 +3,7 @@ requires = ["setuptools>=42"]
 build-backend = "setuptools.build_meta"
 
 [tool.pytest.ini_options]
-addopts = "--cov=openwakeword --cov-report term-missing --flake8 --mypy --mypy-ignore-missing-imports"
+addopts = "--cov=openwakeword_wakeword_deps --cov-report term-missing --flake8 --mypy --mypy-ignore-missing-imports"
 flake8-max-line-length = "140"
 testpaths = [
     "tests",
@@ -11,12 +11,13 @@ testpaths = [
 ]
 
 [project]
-name = "openwakeword"
-version = "0.6.0"
+name = "openwakeword_ubuntu_deps"
+version = "0.0.1"
 authors = [
-  { name="David Scripka", email="david.scripka@gmail.com" },
+  { name="Armand Garrigou", email="garrigouarmand@gmail.com" },
+  # Forked from OG { name="David Scripka", email="david.scripka@gmail.com" },
 ]
-description = "An open-source audio wake word (or phrase) detection framework with a focus on performance and simplicity"
+description = "Fork of OpenWakeWord: An open-source audio wake word (or phrase) detection framework with a focus on performance and simplicity"
 readme = "README.md"
 requires-python = ">=3.10"
 classifiers = [
