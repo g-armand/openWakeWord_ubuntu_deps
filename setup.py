@@ -38,14 +38,14 @@ setuptools.setup(
     ],
     extras_require={},
     author="g-armand",
-    author_email="",
+    author_email="garrrigouarmand@gmail.com",
     description="Fork on openwakeword to get rid of huge list of unused dependencies for ubuntu",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/dscripka/openWakeWord",
+    url="https://github.com/g-armand/openWakeWord_ubuntu_deps",
     project_urls={
         "Source": "https://github.com/g-armand/openWakeWord_ubuntu_deps",
-        "OriginalRepo": "https://github.com/dscripka/openWakeWord",
+        "ForkedFrom": "https://github.com/dscripka/openWakeWord",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
