@@ -9,7 +9,6 @@ setuptools.setup(
 
     version="0.0.2",  # until it works will iterate on 0.0.* then bump directly to 0.6.0
     install_requires=[
-        # --- base dependencies ---
         "onnxruntime>=1.17.1,<2",
         "ai-edge-litert>=2.0.2,<3",
         "speexdsp-ns>=0.1.2,<1",
@@ -17,8 +16,8 @@ setuptools.setup(
         "scipy==1.11.4",
         "scikit-learn>=1,<2",
         "requests>=2.0,<3",
-
-        # --- ["full"] dependencies ---
+    ],
+    extras_require={"full": [
         "mutagen>=1.47.0,<2",
         "torch==2.4.0",
         "torchaudio==2.4.0",
@@ -35,8 +34,8 @@ setuptools.setup(
         "torchcodec>=0.9.1,<1",
         "onnxscript>=0.5.7,<1",
         "datasets>=4.1.1,<5",
-    ],
-    extras_require={},
+        ]
+    },
     author="g-armand",
     author_email="garrrigouarmand@gmail.com",
     description="Fork on openwakeword to get rid of huge list of unused dependencies for ubuntu",
