@@ -14,14 +14,14 @@ setuptools.setup(
         "ai-edge-litert>=2.0.2,<3",
         "speexdsp-ns>=0.1.2,<1",
         "tqdm>=4.0,<5.0",
-        "scipy>=1.3,<2",
+        "scipy==1.11.4",
         "scikit-learn>=1,<2",
         "requests>=2.0,<3",
 
         # --- ["full"] dependencies ---
         "mutagen>=1.47.0,<2",
-        "torch>=2.4.0,<3",
-        "torchaudio>=2.4.0,<3",
+        "torch==2.4.0",
+        "torchaudio==2.4.0",
         "torchinfo>=1.8.0,<2",
         "torchmetrics>=0.11.4,<1",
         "speechbrain>=0.5.16,<1",
