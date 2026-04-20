@@ -9,7 +9,7 @@ setuptools.setup(
 
     version="0.0.3",  # until it works will iterate on 0.0.* then bump directly to 0.6.0
     install_requires=[
-        "onnxruntime>=1.17.1,<2",
+        "onnxruntime==1.17.1",
         "ai-edge-litert>=2.0.2,<3",
         "speexdsp-ns>=0.1.2,<1",
         "tqdm>=4.0,<5.0",
