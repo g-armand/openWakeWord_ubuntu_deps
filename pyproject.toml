@@ -12,7 +12,7 @@ testpaths = [
 
 [project]
 name = "openwakeword_ubuntu_deps"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Armand Garrigou", email="garrigouarmand@gmail.com" },
   # Forked from OG { name="David Scripka", email="david.scripka@gmail.com" },
