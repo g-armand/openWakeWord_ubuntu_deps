@@ -1,5 +1,6 @@
-Fork on [openWakeWord](https://github.com/dscripka/openWakeWord/tree/main) to get rid of package dependencies that are not compatible on Ubuntu 24.04
+Fork on [openWakeWord](https://github.com/dscripka/openWakeWord/tree/main) to get rid of package dependencies that are not compatible on **Ubuntu 24.04** and **Python 3.12**
 
+Please ensure that you have a setuptools version <81.0.0, otherwise pkg_resources won't be oinstalled automatically, while it is being used by torchmetrics
 
 ![Github CI](https://github.com/dscripka/openWakeWord/actions/workflows/tests.yml/badge.svg)
 
