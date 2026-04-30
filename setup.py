@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="openwakeword_ubuntu_deps",
 
-    version="0.0.5",
+    version="0.6.0",
     install_requires=[
         "onnxruntime==1.17.1",
         "ai-edge-litert>=2.0.2,<3",
