@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="openwakeword_ubuntu_deps",
 
-    version="0.6.0",
+    version="0.6.1",
     install_requires=[
         "onnxruntime==1.17.1",
         "ai-edge-litert>=2.0.2,<3",
@@ -21,8 +21,8 @@ setuptools.setup(
     extras_require={
         "full": [
             "mutagen>=1.47.0,<2",
-            "torch==2.4.0",
-            "torchaudio==2.4.0",
+            "torch==2.8.0",
+            "torchaudio==2.8.0",
             "torchinfo>=1.8.0,<2",
             "torchmetrics>=0.11.4,<1",
             "speechbrain>=0.5.16,<1",
@@ -34,10 +34,11 @@ setuptools.setup(
             "pronouncing>=0.2.0,<1",
             "deep-phonemizer>=0.0.19,<1",
             "tensorboard>=2.18.0,<3",
-            "torchcodec>=0.9.1,<1",
+            "torchcodec>=0.7.0,<1",
             "onnxscript>=0.5.7,<1",
             "datasets>=4.1.1,<5",
         ],
+
     },
     author="g-armand",
     author_email="garrrigouarmand@gmail.com",
